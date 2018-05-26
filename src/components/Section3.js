@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Albums from "../components/Albums/Albums"
+import Albums from "../components/Albums/Albums";
 
 class Section3 extends Component {
   constructor(props) {

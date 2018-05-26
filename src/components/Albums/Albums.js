@@ -33,6 +33,7 @@ class Albums extends Component {
               imageUrl={album.artworkUrl100}
               releaseDate={album.releaseDate}
               genre={album.primaryGenreName}
+              videoUrl={album.url}
             />
           )
         )}
