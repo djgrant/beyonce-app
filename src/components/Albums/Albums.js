@@ -25,16 +25,17 @@ class Albums extends Component {
   render() {
     return (
       <div>
-        {this.state.albums.map(album => {
-          return (
+        {this.state.albums.map(album => 
+           (
             <Album 
+              key={album.albumId}
               album={album.collectionName}
               imageUrl={album.artworkUrl100}
               releaseDate={album.releaseDate}
               genre={album.primaryGenreName}
             />
-          );
-        })}
+          )
+        )}
       </div>
     );
   }
