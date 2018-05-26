@@ -18,4 +18,4 @@ Album.propTypes = {
   genre: propTypes.string.isRequired
 };
 
-export default App;
+export default Album;

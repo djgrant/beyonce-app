@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Albums from "../Albums/Albums";
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
         </section>
         <section>
           <h1>Albums</h1>
+          <Albums />
         </section>
       </div>
     );
