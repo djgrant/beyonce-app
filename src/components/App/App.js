@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import Albums from "../Albums/Albums";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Section1 from "../Section1";
-import Section2 from "../Section2";
-import Section3 from "../Section3";
+import Home from "../Home";
+import About from "../About";
+import HerAlbums from "../HerAlbums";
 
 class App extends Component {
   render() {
@@ -25,9 +25,9 @@ class App extends Component {
 
           <hr />
 
-          <Route exact path="/" component={Section1} />
-          <Route path="/about" component={Section2} />
-          <Route path="/albums" component={Section3} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/albums" component={HerAlbums} />
         </div>
       </Router>
     );

@@ -42,6 +42,4 @@ class Albums extends Component {
   }
 }
 
-Albums.propTypes = {};
-
 export default Albums;
