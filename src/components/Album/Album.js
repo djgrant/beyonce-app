@@ -1,6 +1,6 @@
-import React from 'react';
-import propTypes from 'prop-types';
-import './Album.css';
+import React from "react";
+import propTypes from "prop-types";
+import "./Album.css";
 
 const Album = props => (
   <div>
@@ -18,4 +18,4 @@ Album.propTypes = {
   genre: propTypes.string.isRequired
 };
 
-export default App;
+export default Album;

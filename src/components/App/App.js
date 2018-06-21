@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Albums from "../Albums/Albums";
+import Album from "../Album/Album";
 
 class App extends Component {
   render() {
@@ -21,7 +22,7 @@ class App extends Component {
             dancer wasn't merely an entertainer but a progressive artist as
             well.
           </p>
-          <small>Source: Spotify</small>
+          <small>Source: Spotif y</small>
         </section>
         <section>
           <h1>About</h1>
