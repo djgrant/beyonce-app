@@ -15,9 +15,7 @@ class Albums extends Component {
     )
       .then(data => data.json())
       .then(data => {
-        this.setState = {
-          albums: data
-        };
+        this.setState({ albums: data });
       });
   }
   render() {
